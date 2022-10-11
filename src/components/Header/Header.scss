@@ -1,0 +1,23 @@
+@import "../../assets/colors";
+
+.header-c {
+  .header {
+    background: $blackLight;
+    color: $white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  .btn {
+    background: $orange;
+    color:$white;
+
+    &:hover {
+      background: $orangeHover;
+    }
+  }
+}
