@@ -1,23 +1,28 @@
-@import "../../assets/colors";
+@import '../../assets/colors';
 
 .header-c {
-  .header {
-    background: $blackLight;
-    color: $white;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  h1 {
-    margin: 0;
-  }
-  .btn {
-    background: $orange;
-    color:$white;
+    .header {
+        background: $blackLight;
+        color: $white;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        padding-right: 20px;
 
-    &:hover {
-      background: $orangeHover;
+        h1 {
+            margin: 0;
+        }
+
+        .btn {
+            background: $orange;
+            color: $white;
+
+            &:hover {
+                background: $orangeHover;
+            }
+        }
     }
-  }
 }

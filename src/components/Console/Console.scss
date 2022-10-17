@@ -1,0 +1,23 @@
+.console-c {
+    ul li {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-right: 10px;
+            font-size: 20px;
+            font-size: bold;
+            width: 140px;
+        }
+        input[type='checkbox'] {
+            width: 20px;
+            height: 20px;
+            margin-top: 8px;
+            margin-left: -1px;
+        }
+        input[type='text'] {
+            margin-top: 6px;
+            width: 100px;
+        }
+    }
+}
